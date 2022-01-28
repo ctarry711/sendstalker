@@ -1,0 +1,982 @@
+{
+    "1": {
+        "id": "1",
+        "french_boulder": "1",
+        "boulder": "V0",
+        "french_sport": "1",
+        "sport": "5.1"
+    },
+    "2": {
+        "id": "2",
+        "french_boulder": "2",
+        "boulder": "V0",
+        "french_sport": "2",
+        "sport": "5.2"
+    },
+    "3": {
+        "id": "3",
+        "french_boulder": "3A",
+        "boulder": "V0",
+        "french_sport": "3a",
+        "sport": "5.3"
+    },
+    "4": {
+        "id": "4",
+        "french_boulder": "3B",
+        "boulder": "V0",
+        "french_sport": "3b",
+        "sport": "5.4"
+    },
+    "5": {
+        "id": "5",
+        "french_boulder": "3C",
+        "boulder": "V0",
+        "french_sport": "3c",
+        "sport": "5.5"
+    },
+    "6": {
+        "id": "6",
+        "french_boulder": "4A",
+        "boulder": "V0",
+        "french_sport": "4a",
+        "sport": "5.6"
+    },
+    "7": {
+        "id": "7",
+        "french_boulder": "4B",
+        "boulder": "V0",
+        "french_sport": "4b",
+        "sport": "5.7"
+    },
+    "8": {
+        "id": "8",
+        "french_boulder": "4C",
+        "boulder": "V0",
+        "french_sport": "4b",
+        "sport": "5.7"
+    },
+    "9": {
+        "id": "9",
+        "french_boulder": "5A",
+        "boulder": "V0",
+        "french_sport": "4c",
+        "sport": "5.7"
+    },
+    "10": {
+        "id": "10",
+        "french_boulder": "5A",
+        "boulder": "V0",
+        "french_sport": "4c",
+        "sport": "5.7"
+    },
+    "11": {
+        "id": "11",
+        "french_boulder": "5A",
+        "boulder": "V0",
+        "french_sport": "5a",
+        "sport": "5.8"
+    },
+    "12": {
+        "id": "12",
+        "french_boulder": "5A",
+        "boulder": "V0",
+        "french_sport": "5a",
+        "sport": "5.8"
+    },
+    "13": {
+        "id": "13",
+        "french_boulder": "5B",
+        "boulder": "V1",
+        "french_sport": "5a",
+        "sport": "5.8"
+    },
+    "14": {
+        "id": "14",
+        "french_boulder": "5B",
+        "boulder": "V1",
+        "french_sport": "5a",
+        "sport": "5.8"
+    },
+    "15": {
+        "id": "15",
+        "french_boulder": "5B",
+        "boulder": "V1",
+        "french_sport": "5a",
+        "sport": "5.8"
+    },
+    "16": {
+        "id": "16",
+        "french_boulder": "5B",
+        "boulder": "V1",
+        "french_sport": "5b",
+        "sport": "5.8"
+    },
+    "17": {
+        "id": "17",
+        "french_boulder": "5C",
+        "boulder": "V2",
+        "french_sport": "5b",
+        "sport": "5.8"
+    },
+    "18": {
+        "id": "18",
+        "french_boulder": "5C",
+        "boulder": "V2",
+        "french_sport": "5b",
+        "sport": "5.9"
+    },
+    "19": {
+        "id": "19",
+        "french_boulder": "5C",
+        "boulder": "V2",
+        "french_sport": "5b",
+        "sport": "5.9"
+    },
+    "20": {
+        "id": "20",
+        "french_boulder": "5C",
+        "boulder": "V2",
+        "french_sport": "5b",
+        "sport": "5.9"
+    },
+    "21": {
+        "id": "21",
+        "french_boulder": "6A",
+        "boulder": "V3",
+        "french_sport": "5c",
+        "sport": "5.9"
+    },
+    "22": {
+        "id": "22",
+        "french_boulder": "6A",
+        "boulder": "V3",
+        "french_sport": "5c",
+        "sport": "5.9"
+    },
+    "23": {
+        "id": "23",
+        "french_boulder": "6A",
+        "boulder": "V3",
+        "french_sport": "5c",
+        "sport": "5.9"
+    },
+    "24": {
+        "id": "24",
+        "french_boulder": "6A+",
+        "boulder": "V3",
+        "french_sport": "5c",
+        "sport": "5.9"
+    },
+    "25": {
+        "id": "25",
+        "french_boulder": "6A+",
+        "boulder": "V3",
+        "french_sport": "5c",
+        "sport": "5.9"
+    },
+    "26": {
+        "id": "26",
+        "french_boulder": "6A+",
+        "boulder": "V4",
+        "french_sport": "6a",
+        "sport": "5.10a"
+    },
+    "27": {
+        "id": "27",
+        "french_boulder": "6B",
+        "boulder": "V4",
+        "french_sport": "6a",
+        "sport": "5.10a"
+    },
+    "28": {
+        "id": "28",
+        "french_boulder": "6B",
+        "boulder": "V4",
+        "french_sport": "6a",
+        "sport": "5.10a"
+    },
+    "29": {
+        "id": "29",
+        "french_boulder": "6B",
+        "boulder": "V4",
+        "french_sport": "6a",
+        "sport": "5.10a"
+    },
+    "30": {
+        "id": "30",
+        "french_boulder": "6B+",
+        "boulder": "V4",
+        "french_sport": "6a",
+        "sport": "5.10a"
+    },
+    "31": {
+        "id": "31",
+        "french_boulder": "6B+",
+        "boulder": "V4",
+        "french_sport": "6a+",
+        "sport": "5.10b"
+    },
+    "32": {
+        "id": "32",
+        "french_boulder": "6B+",
+        "boulder": "V5",
+        "french_sport": "6a+",
+        "sport": "5.10b"
+    },
+    "33": {
+        "id": "33",
+        "french_boulder": "6C",
+        "boulder": "V5",
+        "french_sport": "6a+",
+        "sport": "5.10b"
+    },
+    "34": {
+        "id": "34",
+        "french_boulder": "6C",
+        "boulder": "V5",
+        "french_sport": "6a+",
+        "sport": "5.10b"
+    },
+    "35": {
+        "id": "35",
+        "french_boulder": "6C",
+        "boulder": "V5",
+        "french_sport": "6a+",
+        "sport": "5.10b"
+    },
+    "36": {
+        "id": "36",
+        "french_boulder": "6C+",
+        "boulder": "V5",
+        "french_sport": "6b",
+        "sport": "5.10c"
+    },
+    "37": {
+        "id": "37",
+        "french_boulder": "6C+",
+        "boulder": "V5",
+        "french_sport": "6b",
+        "sport": "5.10c"
+    },
+    "38": {
+        "id": "38",
+        "french_boulder": "6C+",
+        "boulder": "V6",
+        "french_sport": "6b",
+        "sport": "5.10c"
+    },
+    "39": {
+        "id": "39",
+        "french_boulder": "7A",
+        "boulder": "V6",
+        "french_sport": "6b",
+        "sport": "5.10c"
+    },
+    "40": {
+        "id": "40",
+        "french_boulder": "7A",
+        "boulder": "V6",
+        "french_sport": "6b",
+        "sport": "5.10c"
+    },
+    "41": {
+        "id": "41",
+        "french_boulder": "7A",
+        "boulder": "V6",
+        "french_sport": "6b+",
+        "sport": "5.10d"
+    },
+    "42": {
+        "id": "42",
+        "french_boulder": "7A",
+        "boulder": "V6",
+        "french_sport": "6b+",
+        "sport": "5.10d"
+    },
+    "43": {
+        "id": "43",
+        "french_boulder": "7A+",
+        "boulder": "V7",
+        "french_sport": "6b+",
+        "sport": "5.10d"
+    },
+    "44": {
+        "id": "44",
+        "french_boulder": "7A+",
+        "boulder": "V7",
+        "french_sport": "6b+",
+        "sport": "5.10d"
+    },
+    "45": {
+        "id": "45",
+        "french_boulder": "7A+",
+        "boulder": "V7",
+        "french_sport": "6b+",
+        "sport": "5.10d"
+    },
+    "46": {
+        "id": "46",
+        "french_boulder": "7A+",
+        "boulder": "V7",
+        "french_sport": "6c",
+        "sport": "5.11a"
+    },
+    "47": {
+        "id": "47",
+        "french_boulder": "7B",
+        "boulder": "V8",
+        "french_sport": "6c",
+        "sport": "5.11a"
+    },
+    "48": {
+        "id": "48",
+        "french_boulder": "7B",
+        "boulder": "V8",
+        "french_sport": "6c",
+        "sport": "5.11a"
+    },
+    "49": {
+        "id": "49",
+        "french_boulder": "7B",
+        "boulder": "V8",
+        "french_sport": "6c",
+        "sport": "5.11a"
+    },
+    "50": {
+        "id": "50",
+        "french_boulder": "7B+",
+        "boulder": "V8",
+        "french_sport": "6c",
+        "sport": "5.11b"
+    },
+    "51": {
+        "id": "51",
+        "french_boulder": "7B+",
+        "boulder": "V8",
+        "french_sport": "6c+",
+        "sport": "5.11b"
+    },
+    "52": {
+        "id": "52",
+        "french_boulder": "7B+",
+        "boulder": "V9",
+        "french_sport": "6c+",
+        "sport": "5.11b"
+    },
+    "53": {
+        "id": "53",
+        "french_boulder": "7C",
+        "boulder": "V9",
+        "french_sport": "6c+",
+        "sport": "5.11c"
+    },
+    "54": {
+        "id": "54",
+        "french_boulder": "7C",
+        "boulder": "V9",
+        "french_sport": "6c+",
+        "sport": "5.11c"
+    },
+    "55": {
+        "id": "55",
+        "french_boulder": "7C",
+        "boulder": "V9",
+        "french_sport": "6c+",
+        "sport": "5.11c"
+    },
+    "56": {
+        "id": "56",
+        "french_boulder": "7C",
+        "boulder": "V9",
+        "french_sport": "7a",
+        "sport": "5.11d"
+    },
+    "57": {
+        "id": "57",
+        "french_boulder": "7C",
+        "boulder": "V9",
+        "french_sport": "7a",
+        "sport": "5.11d"
+    },
+    "58": {
+        "id": "58",
+        "french_boulder": "7C+",
+        "boulder": "V10",
+        "french_sport": "7a",
+        "sport": "5.11d"
+    },
+    "59": {
+        "id": "59",
+        "french_boulder": "7C+",
+        "boulder": "V10",
+        "french_sport": "7a",
+        "sport": "5.11d"
+    },
+    "60": {
+        "id": "60",
+        "french_boulder": "7C+",
+        "boulder": "V10",
+        "french_sport": "7a",
+        "sport": "5.11d"
+    },
+    "61": {
+        "id": "61",
+        "french_boulder": "7C+",
+        "boulder": "V10",
+        "french_sport": "7a+",
+        "sport": "5.12a"
+    },
+    "62": {
+        "id": "62",
+        "french_boulder": "7C+",
+        "boulder": "V10",
+        "french_sport": "7a+",
+        "sport": "5.12a"
+    },
+    "63": {
+        "id": "63",
+        "french_boulder": "8A",
+        "boulder": "V11",
+        "french_sport": "7a+",
+        "sport": "5.12a"
+    },
+    "64": {
+        "id": "64",
+        "french_boulder": "8A",
+        "boulder": "V11",
+        "french_sport": "7a+",
+        "sport": "5.12a"
+    },
+    "65": {
+        "id": "65",
+        "french_boulder": "8A",
+        "boulder": "V11",
+        "french_sport": "7a+",
+        "sport": "5.12a"
+    },
+    "66": {
+        "id": "66",
+        "french_boulder": "8A",
+        "boulder": "V11",
+        "french_sport": "7b",
+        "sport": "5.12b"
+    },
+    "67": {
+        "id": "67",
+        "french_boulder": "8A",
+        "boulder": "V11",
+        "french_sport": "7b",
+        "sport": "5.12b"
+    },
+    "68": {
+        "id": "68",
+        "french_boulder": "8A+",
+        "boulder": "V12",
+        "french_sport": "7b",
+        "sport": "5.12b"
+    },
+    "69": {
+        "id": "69",
+        "french_boulder": "8A+",
+        "boulder": "V12",
+        "french_sport": "7b",
+        "sport": "5.12b"
+    },
+    "70": {
+        "id": "70",
+        "french_boulder": "8A+",
+        "boulder": "V12",
+        "french_sport": "7b",
+        "sport": "5.12b"
+    },
+    "71": {
+        "id": "71",
+        "french_boulder": "8A+",
+        "boulder": "V12",
+        "french_sport": "7b+",
+        "sport": "5.12c"
+    },
+    "72": {
+        "id": "72",
+        "french_boulder": "8A+",
+        "boulder": "V12",
+        "french_sport": "7b+",
+        "sport": "5.12c"
+    },
+    "73": {
+        "id": "73",
+        "french_boulder": "8B",
+        "boulder": "V13",
+        "french_sport": "7b+",
+        "sport": "5.12c"
+    },
+    "74": {
+        "id": "74",
+        "french_boulder": "8B",
+        "boulder": "V13",
+        "french_sport": "7b+",
+        "sport": "5.12c"
+    },
+    "75": {
+        "id": "75",
+        "french_boulder": "8B",
+        "boulder": "V13",
+        "french_sport": "7b+",
+        "sport": "5.12c"
+    },
+    "76": {
+        "id": "76",
+        "french_boulder": "8B",
+        "boulder": "V13",
+        "french_sport": "7c",
+        "sport": "5.12d"
+    },
+    "77": {
+        "id": "77",
+        "french_boulder": "8B",
+        "boulder": "V13",
+        "french_sport": "7c",
+        "sport": "5.12d"
+    },
+    "78": {
+        "id": "78",
+        "french_boulder": "8B+",
+        "boulder": "V14",
+        "french_sport": "7c",
+        "sport": "5.12d"
+    },
+    "79": {
+        "id": "79",
+        "french_boulder": "8B+",
+        "boulder": "V14",
+        "french_sport": "7c",
+        "sport": "5.12d"
+    },
+    "80": {
+        "id": "80",
+        "french_boulder": "8B+",
+        "boulder": "V14",
+        "french_sport": "7c",
+        "sport": "5.12d"
+    },
+    "81": {
+        "id": "81",
+        "french_boulder": "8B+",
+        "boulder": "V14",
+        "french_sport": "7c+",
+        "sport": "5.13a"
+    },
+    "82": {
+        "id": "82",
+        "french_boulder": "8B+",
+        "boulder": "V14",
+        "french_sport": "7c+",
+        "sport": "5.13a"
+    },
+    "83": {
+        "id": "83",
+        "french_boulder": "8C",
+        "boulder": "V15",
+        "french_sport": "7c+",
+        "sport": "5.13a"
+    },
+    "84": {
+        "id": "84",
+        "french_boulder": "8C",
+        "boulder": "V15",
+        "french_sport": "7c+",
+        "sport": "5.13a"
+    },
+    "85": {
+        "id": "85",
+        "french_boulder": "8C",
+        "boulder": "V15",
+        "french_sport": "7c+",
+        "sport": "5.13a"
+    },
+    "86": {
+        "id": "86",
+        "french_boulder": "8C",
+        "boulder": "V15",
+        "french_sport": "8a",
+        "sport": "5.13b"
+    },
+    "87": {
+        "id": "87",
+        "french_boulder": "8C",
+        "boulder": "V15",
+        "french_sport": "8a",
+        "sport": "5.13b"
+    },
+    "88": {
+        "id": "88",
+        "french_boulder": "8C+",
+        "boulder": "V16",
+        "french_sport": "8a",
+        "sport": "5.13b"
+    },
+    "89": {
+        "id": "89",
+        "french_boulder": "8C+",
+        "boulder": "V16",
+        "french_sport": "8a",
+        "sport": "5.13b"
+    },
+    "90": {
+        "id": "90",
+        "french_boulder": "8C+",
+        "boulder": "V16",
+        "french_sport": "8a",
+        "sport": "5.13b"
+    },
+    "91": {
+        "id": "91",
+        "french_boulder": "8C+",
+        "boulder": "V16",
+        "french_sport": "8a+",
+        "sport": "5.13c"
+    },
+    "92": {
+        "id": "92",
+        "french_boulder": "8C+",
+        "boulder": "V16",
+        "french_sport": "8a+",
+        "sport": "5.13c"
+    },
+    "93": {
+        "id": "93",
+        "french_boulder": "9A",
+        "boulder": "V17",
+        "french_sport": "8a+",
+        "sport": "5.13c"
+    },
+    "94": {
+        "id": "94",
+        "french_boulder": "9A",
+        "boulder": "V17",
+        "french_sport": "8a+",
+        "sport": "5.13c"
+    },
+    "95": {
+        "id": "95",
+        "french_boulder": "9A",
+        "boulder": "V17",
+        "french_sport": "8a+",
+        "sport": "5.13c"
+    },
+    "96": {
+        "id": "96",
+        "french_boulder": "9A",
+        "boulder": "V17",
+        "french_sport": "8b",
+        "sport": "5.13d"
+    },
+    "97": {
+        "id": "97",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b",
+        "sport": "5.13d"
+    },
+    "98": {
+        "id": "98",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b",
+        "sport": "5.13d"
+    },
+    "99": {
+        "id": "99",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b",
+        "sport": "5.13d"
+    },
+    "100": {
+        "id": "100",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b",
+        "sport": "5.13d"
+    },
+    "101": {
+        "id": "101",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b+",
+        "sport": "5.14a"
+    },
+    "102": {
+        "id": "102",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b+",
+        "sport": "5.14a"
+    },
+    "103": {
+        "id": "103",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b+",
+        "sport": "5.14a"
+    },
+    "104": {
+        "id": "104",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b+",
+        "sport": "5.14a"
+    },
+    "105": {
+        "id": "105",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8b+",
+        "sport": "5.14a"
+    },
+    "106": {
+        "id": "106",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c",
+        "sport": "5.14b"
+    },
+    "107": {
+        "id": "107",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c",
+        "sport": "5.14b"
+    },
+    "108": {
+        "id": "108",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c",
+        "sport": "5.14b"
+    },
+    "109": {
+        "id": "109",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c",
+        "sport": "5.14b"
+    },
+    "110": {
+        "id": "110",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c",
+        "sport": "5.14b"
+    },
+    "111": {
+        "id": "111",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c+",
+        "sport": "5.14c"
+    },
+    "112": {
+        "id": "112",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c+",
+        "sport": "5.14c"
+    },
+    "113": {
+        "id": "113",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c+",
+        "sport": "5.14c"
+    },
+    "114": {
+        "id": "114",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c+",
+        "sport": "5.14c"
+    },
+    "115": {
+        "id": "115",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "8c+",
+        "sport": "5.14c"
+    },
+    "116": {
+        "id": "116",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a",
+        "sport": "5.14d"
+    },
+    "117": {
+        "id": "117",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a",
+        "sport": "5.14d"
+    },
+    "118": {
+        "id": "118",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a",
+        "sport": "5.14d"
+    },
+    "119": {
+        "id": "119",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a",
+        "sport": "5.14d"
+    },
+    "120": {
+        "id": "120",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a",
+        "sport": "5.14d"
+    },
+    "121": {
+        "id": "121",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a+",
+        "sport": "5.15a"
+    },
+    "122": {
+        "id": "122",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a+",
+        "sport": "5.15a"
+    },
+    "123": {
+        "id": "123",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a+",
+        "sport": "5.15a"
+    },
+    "124": {
+        "id": "124",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a+",
+        "sport": "5.15a"
+    },
+    "125": {
+        "id": "125",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9a+",
+        "sport": "5.15a"
+    },
+    "126": {
+        "id": "126",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b",
+        "sport": "5.15b"
+    },
+    "127": {
+        "id": "127",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b",
+        "sport": "5.15b"
+    },
+    "128": {
+        "id": "128",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b",
+        "sport": "5.15b"
+    },
+    "129": {
+        "id": "129",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b",
+        "sport": "5.15b"
+    },
+    "130": {
+        "id": "130",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b",
+        "sport": "5.15b"
+    },
+    "131": {
+        "id": "131",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b+",
+        "sport": "5.15c"
+    },
+    "132": {
+        "id": "132",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b+",
+        "sport": "5.15c"
+    },
+    "133": {
+        "id": "133",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b+",
+        "sport": "5.15c"
+    },
+    "134": {
+        "id": "134",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b+",
+        "sport": "5.15c"
+    },
+    "135": {
+        "id": "135",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9b+",
+        "sport": "5.15c"
+    },
+    "136": {
+        "id": "136",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9c",
+        "sport": "5.15d"
+    },
+    "137": {
+        "id": "137",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9c",
+        "sport": "5.15d"
+    },
+    "138": {
+        "id": "138",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9c",
+        "sport": "5.15d"
+    },
+    "139": {
+        "id": "139",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9c",
+        "sport": "5.15d"
+    },
+    "140": {
+        "id": "140",
+        "french_boulder": "",
+        "boulder": "",
+        "french_sport": "9c",
+        "sport": "5.15d"
+    }
+}
