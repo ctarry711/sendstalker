@@ -55,6 +55,7 @@ gem 'open-uri', '~> 0.2.0'
 gem 'nokogiri', '~> 1.13', '>= 1.13.1'
 gem 'cgi', '~> 0.3.1'
 gem 'json', '~> 2.6', '>= 2.6.1'
+gem 'devise', '~> 4.2'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
