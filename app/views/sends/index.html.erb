@@ -1,10 +1,12 @@
 <main class="container mx-auto mt-28 px-5 flex flex-row gap-8">
-    <% users = ["zach-watson", "kierstenepps", "sam-4529", "christarry"]%>
-    <% sends = scrape_sendage_sends(users, 5)%>
-    <div class="absolute inset-y-0 left-0 w-16">
-        <%= render 'following', sends: sends%>
+    <% @data = scrape_sendage_sends(@followees, 5)%>
+    <% followees = @data[:users]%>
+    <% sends = @data[:sends]%>
+
+    <div class="justify-self-start inset-y-0 left-0 w-16">
+        <%= render 'following', followees: followees%>
     </div>
-    <div class="basis-3/4">
+    <div class="container mx-auto">
         <%= render 'feed', sends: sends %>
     </div>
 </main>

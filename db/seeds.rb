@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+    User.find(1).followees << Followee.create([{username: "rufio", realname: "Rufio"}, {username: "sam-4529", realname: "Sam Armstrong"}])

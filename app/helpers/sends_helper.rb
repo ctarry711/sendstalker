@@ -24,30 +24,39 @@ module SendsHelper
     puts "names are:", area_list
   end
 
-  def scrape_sendage_sends(users, num_sends)
-    all_sends = [{:username=>"Zach Watson", :name=>"Angeles Caminando Entre Nosotros", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.12b", :send_type=>"onsight", :date=>"2022-01-27", :rating=>"0", :comment=>"", :slug=>"angeles-caminando-entre-nosotros-las-animas-salto-mexico"}, {:username=>"Zach Watson", :name=>"Corazon De Guera", :area_id=>"1415", :climb_type=>"sport", :grade=>"5.10c", :send_type=>"onsight", :date=>"2022-01-27", :rating=>"0", :comment=>"", :slug=>"corazon-de-guera-salto-mexico"}, {:username=>"Zach Watson", :name=>"I Vision", :area_id=>"1415", :climb_type=>"sport", :grade=>"5.11c", :send_type=>"onsight", :date=>"2022-01-27", :rating=>"0", :comment=>"", :slug=>"i-vision-salto-mexico"}, {:username=>"Zach Watson", :name=>"Pesadilla Nocturna", :area_id=>"1415", :climb_type=>"sport", :grade=>"5.12c", :send_type=>"onsight", :date=>"2022-01-27", :rating=>"0", :comment=>"", :slug=>"pesadilla-nocturna-salto-mexico"}, {:username=>"Zach Watson", :name=>"Alien tufa", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.11d", :send_type=>"flash", :date=>"2022-01-26", :rating=>"0", :comment=>"", :slug=>"alien-tufa-las-animas-salto-mexico"}, {:username=>"Kiersten Classen", :name=>"Con las manos en la Cosa", :area_id=>"86", :climb_type=>"sport", :grade=>"5.11a", :send_type=>"onsight", :date=>"2022-01-28", :rating=>"3", :comment=>"", :slug=>"con-las-manos-en-cosa-sella-spain"}, {:username=>"Kiersten Classen", :name=>"Kashba", :area_id=>"86", :climb_type=>"sport", :grade=>"5.11c", :send_type=>"redpoint", :date=>"2022-01-27", :rating=>"4", :comment=>"", :slug=>"kashba-sella-spain"}, {:username=>"Kiersten Classen", :name=>"Calienta Motores", :area_id=>"6097", :climb_type=>"sport", :grade=>"5.11d", :send_type=>"redpoint", :date=>"2022-01-24", :rating=>"4", :comment=>"", :slug=>"calienta-motores-reguchillo-jaen-andalucia-spain"}, {:username=>"Kiersten Classen", :name=>"Metamorfosis", :area_id=>"5517", :climb_type=>"sport", :grade=>"5.11c", :send_type=>"redpoint", :date=>"2022-01-24", :rating=>"5", :comment=>"Fun 3D climbing.", :slug=>"metamorfosis-reguchillo-spain"}, {:username=>"Kiersten Classen", :name=>"Formic Acid", :area_id=>"8967", :climb_type=>"sport", :grade=>"5.12a", :send_type=>"onsight", :date=>"2019-12-10", :rating=>"3", :comment=>"Fun and delicate.", :slug=>"formic-acid-fisher-valley-cat-ba-island-vietnam"}, {:username=>"Sam Armstrong", :name=>"Bizarre Contact", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.12b", :send_type=>"redpoint", :date=>"2022-01-25", :rating=>"0", :comment=>"Alex's last day!", :slug=>"bizarre-contact-las-animas-salto-mexico"}, {:username=>"Sam Armstrong", :name=>"Techo del tecolote", :area_id=>"7729", :climb_type=>"sport", :grade=>"5.13a", :send_type=>"redpoint", :date=>"2022-01-23", :rating=>"0", :comment=>"Cutloose beta ! ", :slug=>"techo-del-tecolote-cueva-tecolote-salto-mexico"}, {:username=>"Sam Armstrong", :name=>"Spider Love", :area_id=>"7729", :climb_type=>"sport", :grade=>"5.12a", :send_type=>"flash", :date=>"2022-01-23", :rating=>"0", :comment=>"The route beside limestoner, aka missing hangar ", :slug=>"spider-love-cueva-tecolote-salto-mexico"}, {:username=>"Sam Armstrong", :name=>"El Tecolotito Extension", :area_id=>"7728", :climb_type=>"sport", :grade=>"5.12c", :send_type=>"redpoint", :date=>"2022-01-20", :rating=>"0", :comment=>"Great !", :slug=>"tecolotito-extension-boca-salto-mexico"}, {:username=>"Sam Armstrong", :name=>"Lounge Puppy", :area_id=>"7728", :climb_type=>"sport", :grade=>"5.13a", :send_type=>"redpoint", :date=>"2022-01-20", :rating=>"0", :comment=>"Shoulda done this  quicker but hurt my shoulder going to the rest", :slug=>"lounge-puppy-boca-salto-mexico"}, {:username=>"Chris Tarry", :name=>"Spider Love", :area_id=>"7729", :climb_type=>"sport", :grade=>"5.12a", :send_type=>"flash", :date=>"2022-01-23", :rating=>"3", :comment=>"", :slug=>"spider-love-cueva-tecolote-salto-mexico"}, {:username=>"Chris Tarry", :name=>"Tecolote", :area_id=>"7729", :climb_type=>"sport", :grade=>"5.13a", :send_type=>"redpoint", :date=>"2022-01-22", :rating=>"3", :comment=>"Pretty funky climb. More-so caving than rock climbing though. Not my favourite style.", :slug=>"tecolote-cueva-tecolote-salto-mexico"}, {:username=>"Chris Tarry", :name=>"Inferno De Dante", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.13c", :send_type=>"redpoint", :date=>"2022-01-19", :rating=>"5", :comment=>"First 13c! Three days of work, 8 goes total. I didn&rsquo;t bother working the extension but now wish I had. I will go back up for it at some point. ", :slug=>"inferno-de-dante-las-animas-salto-mexico"}, {:username=>"Chris Tarry", :name=>"Muchos Cornjulios", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.12a", :send_type=>"onsight", :date=>"2022-01-18", :rating=>"4", :comment=>"", :slug=>"muchos-cornjulios-las-animas-salto-mexico"}, {:username=>"Chris Tarry", :name=>"All Along the Watchtower", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.11c", :send_type=>"onsight", :date=>"2022-01-17", :rating=>"3", :comment=>"", :slug=>"all-along-watchtower-las-animas-salto-mexico"}]
-    return all_sends.sort_by {|send| send[:date]}.reverse
+  def scrape_sendage_sends(followees, num_sends)
+
+    #Sample data. Comment this out when you want to pull the live data
+    data = {:users=>[{:realname=>"Rufio", :username=>"rufio", :profile_pic=>"//sendage.com/img/user/profile-rufio-3-full.jpeg"}, {:realname=>"Sam Armstrong", :username=>"sam-4529", :profile_pic=>"//sendage.com/community/wp-content/uploads/2018/07/Sam_avatar-100x100.jpg"}, {:realname=>"Chris Tarry", :username=>"christarry", :profile_pic=>"https://graph.facebook.com/10155432104171038/picture?width=150&height=150"}], :sends=>[{:realname=>"Rufio", :name=>"Hippy Bishop", :profile_pic=>"//sendage.com/img/user/profile-rufio-3-full.jpeg", :area_id=>"2405", :climb_type=>"boulder", :grade=>"V4", :send_type=>"redpoint", :date=>"2022-01-31", :rating=>"2", :comment=>"Heinous until finding better beta. Mildly heinous thereafter... Took the slab quest straight up the middle of the boulder after the mantle.", :slug=>"hippy-bishop-happy-boulders-bishop-ca-usa"}, {:realname=>"Rufio", :name=>"Cheap New Age Fix", :profile_pic=>"//sendage.com/img/user/profile-rufio-3-full.jpeg", :area_id=>"1", :climb_type=>"boulder", :grade=>"V2", :send_type=>"onsight", :date=>"2022-01-31", :rating=>"4", :comment=>"", :slug=>"cheap-new-age-fix-bishop-ca-usa"}, {:realname=>"Rufio", :name=>"The Flying Zebra", :profile_pic=>"//sendage.com/img/user/profile-rufio-3-full.jpeg", :area_id=>"2405", :climb_type=>"boulder", :grade=>"V4", :send_type=>"redpoint", :date=>"2022-01-31", :rating=>"4", :comment=>"Actually super flowy and fun!", :slug=>"flying-zebra-happy-boulders-bishop-ca-usa"}, {:realname=>"Rufio", :name=>"Bleached Bones Left", :profile_pic=>"//sendage.com/img/user/profile-rufio-3-full.jpeg", :area_id=>"2405", :climb_type=>"boulder", :grade=>"V4", :send_type=>"redpoint", :date=>"2022-01-31", :rating=>"3", :comment=>"Ow... Fun traverse finish, but painful.", :slug=>"bleached-bones-left-happy-boulders-bishop-ca-usa"}, {:realname=>"Rufio", :name=>"Molly", :profile_pic=>"//sendage.com/img/user/profile-rufio-3-full.jpeg", :area_id=>"4694", :climb_type=>"boulder", :grade=>"V5", :send_type=>"redpoint", :date=>"2022-01-30", :rating=>"4", :comment=>"", :slug=>"molly-sad-boulders-bishop-ca-usa"}, {:realname=>"Sam Armstrong", :name=>"Scarface Extension", :profile_pic=>"//sendage.com/community/wp-content/uploads/2018/07/Sam_avatar-100x100.jpg", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.12b", :send_type=>"flash", :date=>"2022-02-02", :rating=>"0", :comment=>"45m, kind of chossy at the top ", :slug=>"scarface-extension-las-animas-salto-mexico"}, {:realname=>"Sam Armstrong", :name=>"The Mind's Eye", :profile_pic=>"//sendage.com/community/wp-content/uploads/2018/07/Sam_avatar-100x100.jpg", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.12b", :send_type=>"onsight", :date=>"2022-01-30", :rating=>"0", :comment=>"", :slug=>"minds-eye-las-animas-salto-mexico"}, {:realname=>"Sam Armstrong", :name=>"Bizarre Contact", :profile_pic=>"//sendage.com/community/wp-content/uploads/2018/07/Sam_avatar-100x100.jpg", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.12b", :send_type=>"redpoint", :date=>"2022-01-25", :rating=>"0", :comment=>"Alex's last day!", :slug=>"bizarre-contact-las-animas-salto-mexico"}, {:realname=>"Sam Armstrong", :name=>"Techo del tecolote", :profile_pic=>"//sendage.com/community/wp-content/uploads/2018/07/Sam_avatar-100x100.jpg", :area_id=>"7729", :climb_type=>"sport", :grade=>"5.13a", :send_type=>"redpoint", :date=>"2022-01-23", :rating=>"0", :comment=>"Cutloose beta ! ", :slug=>"techo-del-tecolote-cueva-tecolote-salto-mexico"}, {:realname=>"Sam Armstrong", :name=>"Spider Love", :profile_pic=>"//sendage.com/community/wp-content/uploads/2018/07/Sam_avatar-100x100.jpg", :area_id=>"7729", :climb_type=>"sport", :grade=>"5.12a", :send_type=>"flash", :date=>"2022-01-23", :rating=>"0", :comment=>"The route beside limestoner, aka missing hangar ", :slug=>"spider-love-cueva-tecolote-salto-mexico"}, {:realname=>"Chris Tarry", :name=>"The Mind's Eye", :profile_pic=>"https://graph.facebook.com/10155432104171038/picture?width=150&height=150", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.12b", :send_type=>"flash", :date=>"2022-01-30", :rating=>"3", :comment=>"", :slug=>"minds-eye-las-animas-salto-mexico"}, {:realname=>"Chris Tarry", :name=>"Inferno De Dante Extension", :profile_pic=>"https://graph.facebook.com/10155432104171038/picture?width=150&height=150", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.13d", :send_type=>"redpoint", :date=>"2022-01-30", :rating=>"4", :comment=>"Super psyched! First of the grade! I ended up falling on the extension twice before finally getting it.", :slug=>"inferno-de-dante-extension-las-animas-salto-mexico"}, {:realname=>"Chris Tarry", :name=>"Culo de la negra", :profile_pic=>"https://graph.facebook.com/10155432104171038/picture?width=150&height=150", :area_id=>"7727", :climb_type=>"sport", :grade=>"5.12a", :send_type=>"onsight", :date=>"2022-01-25", :rating=>"4", :comment=>"", :slug=>"culo-de-negra-las-animas-salto-mexico"}, {:realname=>"Chris Tarry", :name=>"Spider Love", :profile_pic=>"https://graph.facebook.com/10155432104171038/picture?width=150&height=150", :area_id=>"7729", :climb_type=>"sport", :grade=>"5.12a", :send_type=>"flash", :date=>"2022-01-23", :rating=>"3", :comment=>"", :slug=>"spider-love-cueva-tecolote-salto-mexico"}, {:realname=>"Chris Tarry", :name=>"Tecolote", :profile_pic=>"https://graph.facebook.com/10155432104171038/picture?width=150&height=150", :area_id=>"7729", :climb_type=>"sport", :grade=>"5.13a", :send_type=>"redpoint", :date=>"2022-01-22", :rating=>"3", :comment=>"Pretty funky climb. More-so caving than rock climbing though. Not my favourite style.", :slug=>"tecolote-cueva-tecolote-salto-mexico"}]}
+    return data
+
+
     require 'open-uri'
     require 'nokogiri'
     require 'cgi'
     require 'json'
     require 'net/http'
 
-    all_sends = []
+    data = {users: [], sends: []}
 
-    users.each do |user|
-      puts "fetching #{user} data..."
+    followees.each do |followee|
+      username = followee.username
+      puts "fetching #{username} data..."
 
-      html = get("https://sendage.com/user/#{user}").body
+      html = get("https://sendage.com/user/#{username}").body
       doc = Nokogiri::HTML(html)
+      puts "processed html"
 
       grade_hash = JSON.parse(File.read('app/helpers/grade.json'))
       
-      username = doc.css('.profile-info .col .top')[0].content
+      realname = doc.css('.profile-info .col .top')[0].content
+      profile_pic_path = doc.css('.profilepic img')[0]['src']
+      data[:users] << {realname: realname, username: username, profile_pic: profile_pic_path}
+
       sendlist = JSON.parse CGI::unescape(doc.css('#sendlist')[0]["climbs"])
 
       sendlist[..num_sends-1].each do |climb|
-        name = climb["Climb"]["name"]
+        name = climb["Climb"]["name"] 
         area_id = climb["Climb"]["area_id"]
         climb_type = climb["Climb"]["type"]
         grade = grade_hash[climb["UserClimb"]["grade_id"]][climb_type]
@@ -57,11 +66,12 @@ module SendsHelper
         rating = climb["UserClimb"]["rating"]
         slug = climb["Climb"]["slug"]
         #location = get_send_location(slug)
-        send = {username: username, name: name, area_id: area_id, climb_type: climb_type, grade: grade, send_type: send_type, date: date, rating: rating, comment: comment, slug: slug}
-        all_sends << send
+        send = {realname: realname, name: name, profile_pic: profile_pic_path, area_id: area_id, climb_type: climb_type, grade: grade, send_type: send_type, date: date, rating: rating, comment: comment, slug: slug}
+        data[:sends] << send
       end
     end
-    p all_sends
-    return all_sends.sort_by {|send| send[:date]}.reverse
+    p data
+    #return all_sends.sort_by {|send| send[:date]}.reverse
+    return data
   end
 end

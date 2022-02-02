@@ -1,0 +1,791 @@
+{
+    "page": "1",
+    "total": 148,
+    "climbs": [
+        {
+            "Climb": {
+                "id": "43289",
+                "slug": "alien-tufa-las-animas-salto-mexico",
+                "name": "Alien tufa",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "57",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.9545",
+                "sends": "33",
+                "send_type": "onsight"
+            },
+            "UserClimb": [
+                {
+                    "id": "398216",
+                    "user_id": "3525",
+                    "climb_id": "43289",
+                    "type": "onsight",
+                    "day": "2022-01-04",
+                    "rating": "4",
+                    "comments": "Mucho bueno",
+                    "beta": "",
+                    "grade_id": "53",
+                    "grade_difficulty": "0",
+                    "first_ascent": false,
+                    "attempts": null
+                }
+            ]
+        },
+        {
+            "Climb": {
+                "id": "43365",
+                "slug": "culo-de-negra-las-animas-salto-mexico",
+                "name": "Culo de la negra",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "62",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "4.0952",
+                "sends": "28",
+                "send_type": "project"
+            },
+            "UserClimb": []
+        },
+        {
+            "Climb": {
+                "id": "43332",
+                "slug": "body-groovin-las-animas-salto-mexico",
+                "name": "Body groovin",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "67",
+                "bolts": "0",
+                "length": "25"
+            },
+            "0": {
+                "rating": "3.8500",
+                "sends": "27",
+                "send_type": "onsight"
+            },
+            "UserClimb": [
+                {
+                    "id": "398217",
+                    "user_id": "3525",
+                    "climb_id": "43332",
+                    "type": "onsight",
+                    "day": "2022-01-04",
+                    "rating": "5",
+                    "comments": "Muy pumped! Excellent route. Very happy to onsite 12b on my first day here",
+                    "beta": "",
+                    "grade_id": "67",
+                    "grade_difficulty": "0",
+                    "first_ascent": false,
+                    "attempts": null
+                }
+            ]
+        },
+        {
+            "Climb": {
+                "id": "88910",
+                "slug": "hijo-de-puta-boca-salto-mexico",
+                "name": "Hijo de Puta",
+                "area_id": "7728",
+                "type": "sport",
+                "grade_id": "70",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "4.4000",
+                "sends": "23",
+                "send_type": "redpoint"
+            },
+            "UserClimb": [
+                {
+                    "id": "398680",
+                    "user_id": "3525",
+                    "climb_id": "88910",
+                    "type": "redpoint",
+                    "day": "2022-01-14",
+                    "rating": "5",
+                    "comments": "Heel slipped on the flash go. Got it next try. Best of the grade in El Salto imo",
+                    "beta": "",
+                    "grade_id": "72",
+                    "grade_difficulty": "0",
+                    "first_ascent": false,
+                    "attempts": null
+                }
+            ]
+        },
+        {
+            "Climb": {
+                "id": "55426",
+                "slug": "bizarre-contact-las-animas-salto-mexico",
+                "name": "Bizarre Contact",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "67",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.3333",
+                "sends": "22",
+                "send_type": "project"
+            },
+            "UserClimb": []
+        },
+        {
+            "Climb": {
+                "id": "55472",
+                "slug": "ramons-mushroom-las-animas-salto-mexico",
+                "name": "Ramon's Mushroom",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "56",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.8125",
+                "sends": "22",
+                "send_type": "project"
+            },
+            "UserClimb": []
+        },
+        {
+            "Climb": {
+                "id": "58235",
+                "slug": "nosferatu-cueva-tecolote-salto-mexico",
+                "name": "Nosferatu",
+                "area_id": "7729",
+                "type": "sport",
+                "grade_id": "72",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "4.3333",
+                "sends": "22",
+                "send_type": "flash"
+            },
+            "UserClimb": [
+                {
+                    "id": "398326",
+                    "user_id": "3525",
+                    "climb_id": "58235",
+                    "type": "flash",
+                    "day": "2022-01-07",
+                    "rating": "4",
+                    "comments": "Managed to flash thanks to good beta from sam",
+                    "beta": "",
+                    "grade_id": "72",
+                    "grade_difficulty": "0",
+                    "first_ascent": false,
+                    "attempts": null
+                }
+            ]
+        },
+        {
+            "Climb": {
+                "id": "55438",
+                "slug": "brotherhood-las-animas-salto-mexico",
+                "name": "Brotherhood",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "58",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.8182",
+                "sends": "21",
+                "send_type": "onsight"
+            },
+            "UserClimb": [
+                {
+                    "id": "398252",
+                    "user_id": "3525",
+                    "climb_id": "55438",
+                    "type": "onsight",
+                    "day": "2022-01-05",
+                    "rating": "3",
+                    "comments": "Muy bien",
+                    "beta": "",
+                    "grade_id": "58",
+                    "grade_difficulty": "0",
+                    "first_ascent": false,
+                    "attempts": null
+                }
+            ]
+        },
+        {
+            "Climb": {
+                "id": "44079",
+                "slug": "scarface-las-animas-salto-mexico",
+                "name": "scarface",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "62",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.5000",
+                "sends": "20",
+                "send_type": "project"
+            },
+            "UserClimb": []
+        },
+        {
+            "Climb": {
+                "id": "43292",
+                "slug": "panocha-poderosa-las-animas-salto-mexico",
+                "name": "Panocha poderosa",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "77",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.7059",
+                "sends": "19",
+                "send_type": "project"
+            },
+            "UserClimb": []
+        },
+        {
+            "Climb": {
+                "id": "56704",
+                "slug": "muchos-cornjulios-las-animas-salto-mexico",
+                "name": "Muchos Cornjulios",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "68",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.9286",
+                "sends": "19",
+                "send_type": "onsight"
+            },
+            "UserClimb": [
+                {
+                    "id": "398957",
+                    "user_id": "3525",
+                    "climb_id": "56704",
+                    "type": "onsight",
+                    "day": "2022-01-18",
+                    "rating": "4",
+                    "comments": "",
+                    "beta": "",
+                    "grade_id": "62",
+                    "grade_difficulty": "0",
+                    "first_ascent": false,
+                    "attempts": null
+                }
+            ]
+        },
+        {
+            "Climb": {
+                "id": "94051",
+                "slug": "tecolottito-boca-salto-mexico",
+                "name": "El Tecolottito",
+                "area_id": "7728",
+                "type": "sport",
+                "grade_id": "55",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.2500",
+                "sends": "17",
+                "send_type": "project"
+            },
+            "UserClimb": []
+        },
+        {
+            "Climb": {
+                "id": "43304",
+                "slug": "tufa-lina-las-animas-salto-mexico",
+                "name": "Tufa lina",
+                "area_id": "7727",
+                "type": "sport",
+                "grade_id": "74",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.4167",
+                "sends": "17",
+                "send_type": "project"
+            },
+            "UserClimb": []
+        },
+        {
+            "Climb": {
+                "id": "108898",
+                "slug": "sound-of-first-season-boca-salto-mexico",
+                "name": "The Sound of the First Season",
+                "area_id": "7728",
+                "type": "sport",
+                "grade_id": "62",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.0000",
+                "sends": "16",
+                "send_type": "project"
+            },
+            "UserClimb": []
+        },
+        {
+            "Climb": {
+                "id": "88911",
+                "slug": "honey-bear-boca-salto-mexico",
+                "name": "Honey Bear",
+                "area_id": "7728",
+                "type": "sport",
+                "grade_id": "65",
+                "bolts": "0",
+                "length": null
+            },
+            "0": {
+                "rating": "3.8333",
+                "sends": "16",
+                "send_type": "flash"
+            },
+            "UserClimb": [
+                {
+                    "id": "398517",
+                    "user_id": "3525",
+                    "climb_id": "88911",
+                    "type": "flash",
+                    "day": "2022-01-11",
+                    "rating": "3",
+                    "comments": "",
+                    "beta": "",
+                    "grade_id": "67",
+                    "grade_difficulty": "0",
+                    "first_ascent": false,
+                    "attempts": null
+                }
+            ]
+        }
+    ],
+    "areas": [
+        {
+            "Area": {
+                "id": "7727",
+                "parent_id": "1415",
+                "lft": "8898",
+                "rght": "8899",
+                "slug": "las-animas-salto-mexico",
+                "slug_name": null,
+                "slug_root": false,
+                "is_root": false,
+                "is_country": false,
+                "is_region": false,
+                "is_main": false,
+                "is_simple": false,
+                "is_editable": true,
+                "is_closed_a": false,
+                "is_closed_c": false,
+                "sort": "0",
+                "contributor_id": "772",
+                "name": "Las Animas",
+                "aliases": null,
+                "type": "mixed",
+                "city": "",
+                "state": "",
+                "state_code": "",
+                "country": "",
+                "lat": null,
+                "lon": null,
+                "search_name": "las animas",
+                "description": null,
+                "directions": null,
+                "date_created": "2011-01-01 00:00:00",
+                "date_modified": "2022-01-19 19:40:28",
+                "parents": [
+                    {
+                        "id": "5691",
+                        "parent_id": null,
+                        "lft": "3",
+                        "rght": "9088",
+                        "slug": "north-america",
+                        "slug_name": null,
+                        "slug_root": false,
+                        "is_root": true,
+                        "is_country": false,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": true,
+                        "is_editable": false,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "3",
+                        "contributor_id": null,
+                        "name": "North America",
+                        "aliases": null,
+                        "type": "mixed",
+                        "city": "",
+                        "state": "",
+                        "state_code": "",
+                        "country": "",
+                        "lat": null,
+                        "lon": null,
+                        "search_name": "north america",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    },
+                    {
+                        "id": "5694",
+                        "parent_id": "5691",
+                        "lft": "8828",
+                        "rght": "9027",
+                        "slug": "mexico",
+                        "slug_name": null,
+                        "slug_root": true,
+                        "is_root": false,
+                        "is_country": true,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": false,
+                        "is_editable": false,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "0",
+                        "contributor_id": null,
+                        "name": "Mexico",
+                        "aliases": null,
+                        "type": "mixed",
+                        "city": "",
+                        "state": "",
+                        "state_code": "",
+                        "country": "",
+                        "lat": null,
+                        "lon": null,
+                        "search_name": "mexico",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    },
+                    {
+                        "id": "1415",
+                        "parent_id": "5694",
+                        "lft": "8897",
+                        "rght": "8912",
+                        "slug": "salto-mexico",
+                        "slug_name": null,
+                        "slug_root": false,
+                        "is_root": false,
+                        "is_country": false,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": false,
+                        "is_editable": true,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "0",
+                        "contributor_id": null,
+                        "name": "El salto",
+                        "aliases": null,
+                        "type": "sport",
+                        "city": "Monterrey",
+                        "state": "",
+                        "state_code": "",
+                        "country": "Mexico",
+                        "lat": "25.40296471893534",
+                        "lon": "-100.25608062706641",
+                        "search_name": "el salto",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    }
+                ]
+            }
+        },
+        {
+            "Area": {
+                "id": "7728",
+                "parent_id": "1415",
+                "lft": "8900",
+                "rght": "8901",
+                "slug": "boca-salto-mexico",
+                "slug_name": null,
+                "slug_root": false,
+                "is_root": false,
+                "is_country": false,
+                "is_region": false,
+                "is_main": false,
+                "is_simple": false,
+                "is_editable": true,
+                "is_closed_a": false,
+                "is_closed_c": false,
+                "sort": "0",
+                "contributor_id": "772",
+                "name": "La Boca",
+                "aliases": null,
+                "type": "mixed",
+                "city": "",
+                "state": "",
+                "state_code": "",
+                "country": "",
+                "lat": null,
+                "lon": null,
+                "search_name": "la boca",
+                "description": "Not as wide as Las Animas but just as tall. Closest crag from town",
+                "directions": null,
+                "date_created": "2011-01-01 00:00:00",
+                "date_modified": "2022-01-19 19:40:28",
+                "parents": [
+                    {
+                        "id": "5691",
+                        "parent_id": null,
+                        "lft": "3",
+                        "rght": "9088",
+                        "slug": "north-america",
+                        "slug_name": null,
+                        "slug_root": false,
+                        "is_root": true,
+                        "is_country": false,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": true,
+                        "is_editable": false,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "3",
+                        "contributor_id": null,
+                        "name": "North America",
+                        "aliases": null,
+                        "type": "mixed",
+                        "city": "",
+                        "state": "",
+                        "state_code": "",
+                        "country": "",
+                        "lat": null,
+                        "lon": null,
+                        "search_name": "north america",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    },
+                    {
+                        "id": "5694",
+                        "parent_id": "5691",
+                        "lft": "8828",
+                        "rght": "9027",
+                        "slug": "mexico",
+                        "slug_name": null,
+                        "slug_root": true,
+                        "is_root": false,
+                        "is_country": true,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": false,
+                        "is_editable": false,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "0",
+                        "contributor_id": null,
+                        "name": "Mexico",
+                        "aliases": null,
+                        "type": "mixed",
+                        "city": "",
+                        "state": "",
+                        "state_code": "",
+                        "country": "",
+                        "lat": null,
+                        "lon": null,
+                        "search_name": "mexico",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    },
+                    {
+                        "id": "1415",
+                        "parent_id": "5694",
+                        "lft": "8897",
+                        "rght": "8912",
+                        "slug": "salto-mexico",
+                        "slug_name": null,
+                        "slug_root": false,
+                        "is_root": false,
+                        "is_country": false,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": false,
+                        "is_editable": true,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "0",
+                        "contributor_id": null,
+                        "name": "El salto",
+                        "aliases": null,
+                        "type": "sport",
+                        "city": "Monterrey",
+                        "state": "",
+                        "state_code": "",
+                        "country": "Mexico",
+                        "lat": "25.40296471893534",
+                        "lon": "-100.25608062706641",
+                        "search_name": "el salto",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    }
+                ]
+            }
+        },
+        {
+            "Area": {
+                "id": "7729",
+                "parent_id": "1415",
+                "lft": "8902",
+                "rght": "8903",
+                "slug": "cueva-tecolote-salto-mexico",
+                "slug_name": null,
+                "slug_root": false,
+                "is_root": false,
+                "is_country": false,
+                "is_region": false,
+                "is_main": false,
+                "is_simple": false,
+                "is_editable": true,
+                "is_closed_a": false,
+                "is_closed_c": false,
+                "sort": "0",
+                "contributor_id": "772",
+                "name": "La Cueva Tecolote",
+                "aliases": null,
+                "type": "mixed",
+                "city": "",
+                "state": "",
+                "state_code": "",
+                "country": "",
+                "lat": null,
+                "lon": null,
+                "search_name": "la cueva tecolote",
+                "description": null,
+                "directions": null,
+                "date_created": "2011-01-01 00:00:00",
+                "date_modified": "2022-01-19 19:40:28",
+                "parents": [
+                    {
+                        "id": "5691",
+                        "parent_id": null,
+                        "lft": "3",
+                        "rght": "9088",
+                        "slug": "north-america",
+                        "slug_name": null,
+                        "slug_root": false,
+                        "is_root": true,
+                        "is_country": false,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": true,
+                        "is_editable": false,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "3",
+                        "contributor_id": null,
+                        "name": "North America",
+                        "aliases": null,
+                        "type": "mixed",
+                        "city": "",
+                        "state": "",
+                        "state_code": "",
+                        "country": "",
+                        "lat": null,
+                        "lon": null,
+                        "search_name": "north america",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    },
+                    {
+                        "id": "5694",
+                        "parent_id": "5691",
+                        "lft": "8828",
+                        "rght": "9027",
+                        "slug": "mexico",
+                        "slug_name": null,
+                        "slug_root": true,
+                        "is_root": false,
+                        "is_country": true,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": false,
+                        "is_editable": false,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "0",
+                        "contributor_id": null,
+                        "name": "Mexico",
+                        "aliases": null,
+                        "type": "mixed",
+                        "city": "",
+                        "state": "",
+                        "state_code": "",
+                        "country": "",
+                        "lat": null,
+                        "lon": null,
+                        "search_name": "mexico",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    },
+                    {
+                        "id": "1415",
+                        "parent_id": "5694",
+                        "lft": "8897",
+                        "rght": "8912",
+                        "slug": "salto-mexico",
+                        "slug_name": null,
+                        "slug_root": false,
+                        "is_root": false,
+                        "is_country": false,
+                        "is_region": false,
+                        "is_main": false,
+                        "is_simple": false,
+                        "is_editable": true,
+                        "is_closed_a": false,
+                        "is_closed_c": false,
+                        "sort": "0",
+                        "contributor_id": null,
+                        "name": "El salto",
+                        "aliases": null,
+                        "type": "sport",
+                        "city": "Monterrey",
+                        "state": "",
+                        "state_code": "",
+                        "country": "Mexico",
+                        "lat": "25.40296471893534",
+                        "lon": "-100.25608062706641",
+                        "search_name": "el salto",
+                        "description": null,
+                        "directions": null,
+                        "date_created": "2011-01-01 00:00:00",
+                        "date_modified": "2022-01-20 03:07:17"
+                    }
+                ]
+            }
+        }
+    ]
+}
