@@ -1,10 +1,11 @@
-<main class="container mx-auto mt-28 px-5 flex flex-row gap-8">
+<main class="container mx-auto mt-28 px-5 flex flex-row">
     <% @data = scrape_sendage_sends(@followees, 5)%>
     <% followees = @data[:users]%>
-    <% sends = @data[:sends]%>
+    <% sends = @data[:sends].sort_by {|send| send[:date]}.reverse%>
 
-    <div class="justify-self-start inset-y-0 left-0 w-16">
+    <div class="justify-self-start inset-y-0 left-0">
         <%= render 'following', followees: followees%>
+        <%= render 'form'%>
     </div>
     <div class="container mx-auto">
         <%= render 'feed', sends: sends %>

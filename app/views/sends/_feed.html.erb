@@ -6,14 +6,14 @@
         <table class="table-fixed min-w-full divide-y divide-gray-200">
           <thead class="bg-gray-50">
             <tr>
-              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                Feed
+              <th scope="col" class="px-2 pl-16 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              Climb
               </th>
-              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              Comment
               </th>
-              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-              </th>
-              <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+              Date
               </th>
             </tr>
           </thead>
@@ -26,22 +26,18 @@
                       <img class="h-10 w-10 rounded-full" src=<%=send[:profile_pic]%> alt="">
                     </div>
                     <div class="ml-4">
-                      <div class="text-sm font-medium text-gray-900">
+                      <div class="text-xs text-gray-900">
                         <%=send[:realname]%>
                       </div>
+                      <div class="text-sm font-medium text-gray-900"><%=send[:name]+", "+send[:grade]%></div>
+                      <div class="text-xs text-gray-500"><%=send[:slug]%></div>
                     </div>
                   </div>
                 </td>
-                <td class="px-2 py-2 whitespace-nowrap">
-                  <div class="text-sm text-gray-900"><%=send[:name]%></div>
-                  <div class="text-xs text-gray-500"><%=send[:slug]%></div>
+                <td class="px-2 py-2 ">
+                  <div class="text-xs text-gray-500 italic"><%=send[:comment]%></div>
                 </td>
-                <td class="px-2 py-2 whitespace-nowrap">
-                  <span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
-                    <%=send[:grade]%>
-                  </span>
-                </td>
-                <td class="px-3 py-2 whitespace-nowrap text-sm text-gray-500">
+                <td class="px-2 py-2 whitespace-nowrap text-sm text-gray-500">
                   <%=send[:date]%>
                 </td>
               </tr>
