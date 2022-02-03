@@ -10,8 +10,7 @@
   </div>
 <% end %>
 
-<%= form_with model: @followee do |form| %>
-    <%= form.label :username %><br>
-    <%= form.text_field :username %><br>
-    <%= form.submit %>
+<%= form_with model: @followee, class: "w-48 text-left text-xs font-medium text-gray-500 uppercase tracking-wider" do |form| %>
+    <%= form.text_field :username, class: 'border-none h-12 w-48 text-left text-sm placeholder-italic placeholder-gray-500 text-gray-900', placeholder:"Add new followee..."%><br>
+    <%= form.submit "Submit", class: 'border-none w-48 text-center text-sm text-blue-500'%>
 <%end%>

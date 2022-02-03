@@ -1,7 +1,11 @@
 class SendsController < ApplicationController
   def index
-    @followees = current_user.followees
-    @followee = current_user.followees.new
+    if user_signed_in?
+      @followees = current_user.followees
+      @followee = current_user.followees.new
+    else
+      redirect_to new_user_session_path
+    end
   end
 
   private

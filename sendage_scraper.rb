@@ -25,32 +25,25 @@ body = "mode=climb&page=1&term=&areas%5B%5D=5694&area_parents=false&order%5B%5D=
 page_index = 1 #Used to iterate through all pages since only 15 results are returned for each page
 num_pages = 1
 
-loop do
-  if page_index > num_pages
-    break
-  end
-  ## area id's: "5692": "Canada", "8462": "Kenora", "5801": "Ontario", "5796": "Manitoba", "1": "Bishop"
-  form_data = {'mode': "climb", 'page': page_index.to_s, 'term': '','areas[]': '5692','area_parents': 'false','order[]': 'sends DESC','rating': '','sends': '0','limit': '15','types[b][on]': '1','types[s][on]': '1','types[t][on]': '1'}
+## area id's: "5692": "Canada", "8462": "Kenora", "5801": "Ontario", "5796": "Manitoba", "1": "Bishop"
+form_data = {'mode': "climb", 'page': page_index.to_s, 'term': '','areas[]': '5692','area_parents': 'false','order[]': 'sends DESC','rating': '','sends': '0','limit': '100','types[b][on]': '1','types[s][on]': '1','types[t][on]': '1'}
 
-  req = Net::HTTP::Post.new(uri)
-  req.set_form_data(form_data)
-  res = Net::HTTP.start(uri.hostname, uri.port, :use_ssl => true, :read_timeout => 30) do |http|
-    http.request(req)
-  end
+req = Net::HTTP::Post.new(uri)
+req.set_form_data(form_data)
+res = Net::HTTP.start(uri.hostname, uri.port, :use_ssl => true, :read_timeout => 30) do |http|
+  http.request(req)
+end
 
-  response_parsed = JSON.parse CGI::unescape(res.body)
+response_parsed = JSON.parse CGI::unescape(res.body)
 
-  num_pages = (response_parsed["total"]/15.to_f).ceil #divide by 15 because each page containes 15 climbs
-  puts "Total Pages:", num_pages
+# num_pages = (response_parsed["total"]/15.to_f).ceil #divide by 15 because each page containes 15 climbs
+# puts "Total Pages:", num_pages
+puts "climbs scraped: ", response_parsed["climbs"].length
 
-  climbs = response_parsed["climbs"]
-  areas = response_parsed["areas"] 
-  File.open("climbs.json", "w") {|f| f.write(climbs.to_json)}
+climbs = response_parsed["climbs"]
+areas = response_parsed["areas"] 
+File.open("climbs.json", "w") {|f| f.write(climbs.to_json)}
 
-  File.open("areas.json", "w") do |f|
-    f.write(areas.to_json)
-  end
-
-  puts "Current Page:", page_index
-  page_index += 1
+File.open("scraper_areas.json", "w") do |f|
+  f.write(areas.to_json)
 end

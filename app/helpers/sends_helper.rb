@@ -71,7 +71,6 @@ module SendsHelper
       end
     end
     p data
-    #return all_sends.sort_by {|send| send[:date]}.reverse
     return data
   end
 end
