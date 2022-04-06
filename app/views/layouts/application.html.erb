@@ -9,26 +9,31 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   </head>
-  <body class="h-full">
-    <% if flash[:notice] %>
-  		<div class="notification is-primary global-notification">
-  			<p class="notice"><%= notice %></p>
-  		</div>
-  	<% end %>
-  	<% if flash[:alert] %>
-  		<div class="notification is-danger global-notification">
-  			<p class="alert"><%= alert %></p>
-  		</div>
-  	<% end %>
-    
-    <% if user_signed_in? %>
-      <p class="control">
-        <%= link_to current_user.email, edit_user_registration_path, class: "button is-info" %>
-      </p>
-      <p>
-        <%= button_to 'Sign Out', destroy_user_session_path, method: :delete, class:"button is-info" %>
-      </p>
-    <% end %>
-    <%= yield %>
+  
+  <body class="container">
+  <% if flash[:notice] %>
+    <div class="bg-red-300 text-center">
+      <p class="notice"><%= notice %></p>
+    </div>
+  <% end %>
+  <% if flash[:alert] %>
+    <div class="">
+      <p class="alert"><%= alert %></p>
+    </div>
+  <% end %>
+    <div class="container mx-auto mt-8 px-5 ">
+      <% if user_signed_in? %>
+        <div id="header" class="flex flex-row justify-between mb-8">
+          <img class="h-12" src=<%=path_to_image "logo-2.png"%> alt="Workflow">
+          <div class="text-right">
+            <p class="control">
+              <span class="text-sm">Signed in as </span><%= link_to current_user.email, edit_user_registration_path, class: "button is-info text-sm text-blue-600" %>
+            </p>
+              <%= button_to 'Sign Out', destroy_user_session_path, method: :delete, class:"button is-info text-sm text-blue-600" %>
+          </div>
+        </div>
+      <% end %>
+      <%= yield %>
+    </div>
   </body>
 </html>

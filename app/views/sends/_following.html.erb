@@ -18,9 +18,12 @@
                   <div class="flex-shrink-0 h-10 w-10">
                     <img class="h-10 w-10 rounded-full" src=<%=followee[:profile_pic]%> alt="">
                   </div>
-                  <div class="ml-4">
+                  <div class="ml-4 flex-col">
                     <div class="text-sm font-medium text-gray-900">
                       <%=followee[:realname]%>
+                    </div>
+                    <div class="text-xs font-medium text-gray-500 text-decoration-line: underline">
+                    <%= link_to "unfollow", followee_path(followee[:id]), method: :delete %> 
                     </div>
                   </div>
                 </div>

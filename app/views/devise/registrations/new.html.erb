@@ -1,10 +1,12 @@
 <div class="min-h-full flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
   <div class="max-w-md w-full space-y-8">
     <div>
-      <img class="mx-auto h-12 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
-      <h2 class="mt-6 text-center text-3xl font-extrabold text-gray-900">
-        Sign up
-      </h2>
+      <div>
+      <img class="mx-auto h-48 w-auto" src=<%=path_to_image "logo.png"%> alt="Workflow">
+      <h3 class="mt-3 text-center text-xl text-gray-900">
+        Sign up to start stalking your favourite climbers
+      </h3>
+    </div>
     </div>
 
     <%= form_for(resource, as: resource_name, url: registration_path(resource_name), :html => {:class => 'mt-8 space-y-6'})  do |f| %>

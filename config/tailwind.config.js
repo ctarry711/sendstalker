@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: [
@@ -8,6 +9,10 @@ module.exports = {
     './app/views/devise/**/*'
   ],
   theme: {
+    colors: {
+      'amber': colors.amber,
+      'zinc': colors.zinc
+    },
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],

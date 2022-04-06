@@ -27,10 +27,9 @@
   </div>
 
   <div class="field">
-          <%= f.label :password_confirmation, class: "sr-only "%><br />
-          <%= f.password_field :password_confirmation, autocomplete: "new-password", placeholder: "Confirm password", class:"appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm" %>
-        </div>
-      </div>
+    <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
+    <%= f.password_field :current_password, autocomplete: "current-password" %>
+  </div>
 
   <div class="actions">
     <%= f.submit "Update" %>

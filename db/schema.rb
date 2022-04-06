@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_02_01_191704) do
+ActiveRecord::Schema.define(version: 2022_04_04_153930) do
+
+  create_table "areas", force: :cascade do |t|
+    t.integer "area_id"
+    t.string "area_name"
+    t.integer "parent_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "followees", force: :cascade do |t|
     t.string "username"

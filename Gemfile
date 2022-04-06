@@ -56,6 +56,7 @@ gem 'nokogiri', '~> 1.13', '>= 1.13.1'
 gem 'cgi', '~> 0.3.1'
 gem 'json', '~> 2.6', '>= 2.6.1'
 gem 'devise', '~> 4.2'
+gem 'jquery-rails'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -73,6 +74,8 @@ group :development do
   # gem "spring"
 
   gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
+  gem "letter_opener"
 end
 
 group :test do

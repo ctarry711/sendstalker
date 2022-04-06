@@ -20,7 +20,7 @@
           <tbody class="bg-white divide-y divide-gray-200">
             <%sends.each do |send|%>
               <tr>
-                <td class="px-2 py-2 whitespace-nowrap">
+                <td class="px-2 py-2">
                   <div class="flex items-center">
                     <div class="flex-shrink-0 h-10 w-10">
                       <img class="h-10 w-10 rounded-full" src=<%=send[:profile_pic]%> alt="">
@@ -29,8 +29,26 @@
                       <div class="text-xs text-gray-900">
                         <%=send[:realname]%>
                       </div>
-                      <div class="text-sm font-medium text-gray-900"><%=send[:name]+", "+send[:grade]%></div>
-                      <div class="text-xs text-gray-500"><%=send[:slug]%></div>
+                      <div class="text-sm font-medium text-gray-900">
+                        <%=send[:name]+", "+send[:grade]%>
+                          <span>
+                            <%case send[:send_type]%>
+                            <%when "redpoint"%>
+                                <span class="px-2 text-xs inline-flex font-semibold rounded-full bg-red-100 text-red-800"><%=send[:send_type].capitalize%></span>
+                            <%when "flash"%>
+                                <span class="px-2 text-xs inline-flex font-semibold rounded-full bg-gray-200 text-gray-800"><%=send[:send_type].capitalize%></span>
+                            <%when "onsight"%>
+                                <span class="px-2 text-xs inline-flex font-semibold rounded-full bg-yellow-100 text-yellow-800"><%=send[:send_type].capitalize%></span>
+                            <%end%>
+                          </span>
+                      </div>
+                      <div class="text-xs text-gray-500">
+                        <%parents_str = ""%>
+                        <%send[:area_parents].each do |parent|%>
+                          <%parents_str += parent + " > "%>
+                        <%end%>
+                        <%=parents_str + send[:area_name]%>
+                      </div>
                     </div>
                   </div>
                 </td>
